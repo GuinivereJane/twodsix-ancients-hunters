@@ -1,0 +1,158 @@
+[
+  {
+    "key": "pride-lamp-runner", "folder": "The Pride", "name": "Pride — Lamp Runner", "level": 1,
+    "characteristics": [6, 8, 7],
+    "primary": {"label": "Claw Walk errands", "scope": "Recognise protected stalls, carry word between merchants, and calm a queue at the shutters."},
+    "cue": "A stallholder has paid for protection, but someone keeps taking their amber lamp. The runner asks who was on the corridor last shift.",
+    "gear": ["hand-comm", "courier-bag"], "equipment": ["Spare amber stall lamp", "Clip-on synthetic mane"],
+    "icon": "midnight-claw.svg", "source": "Sectors/Core/Chant/Affinity/Gangs/The Pride.md"
+  },
+  {
+    "key": "pride-collector", "folder": "The Pride", "name": "Pride — Market Collector", "level": 2,
+    "characteristics": [8, 7, 7],
+    "primary": {"label": "Market collections", "scope": "Settle fee disputes, read a trader's mood, and enforce bargains under Pride protection."},
+    "secondary": {"label": "Pit fighting", "scope": "Grapple or use implanted claws in a close bout.", "dm": 1},
+    "cue": "Two collectors have signed for the same payment. This one wants the crew to witness the count before the stallholder is charged twice.",
+    "gear": ["stock-ledger", "retractable-claws"], "equipment": ["Amber-and-black shoulder sash"],
+    "icon": "crossed-claws.svg", "source": "Sectors/Core/Chant/Affinity/Gangs/The Pride.md"
+  },
+  {
+    "key": "pride-pit-second", "folder": "The Pride", "name": "Pride — Pit Second", "level": 3,
+    "characteristics": [9, 8, 9],
+    "primary": {"label": "Pit fighting", "scope": "Fight at arm's length, assess a challenger, or train a prospect for a bout."},
+    "secondary": {"label": "Pride protocol", "scope": "Arrange a challenge or read the standing of a crew inside the Lion's Den.", "dm": 2},
+    "cue": "A prospect's claw jammed during rehearsal. The second offers the crew a ringside introduction if they get the prospect seen at Golden Hide before the bout.",
+    "gear": ["retractable-claws", "subdermal-armour", "comm"], "equipment": ["Pit wraps", "Dyed synthetic mane"],
+    "icon": "wolverine-claws.svg", "source": "Sectors/Core/Chant/Affinity/Gangs/The Pride.md"
+  },
+  {
+    "key": "compact-lift-hand", "folder": "Deck Nine Compact", "name": "Deck Nine Compact — Lift Hand", "level": 1,
+    "characteristics": [8, 6, 8],
+    "primary": {"label": "Freight handling", "scope": "Balance a load, read its restraints, and work the queue at Freight Lift Four."},
+    "cue": "The next load is bound for the communal kitchen at Red Hall, but its booking has vanished. The lift hand has ten minutes to find it another slot.",
+    "gear": ["gloves", "cargo-straps", "handlamp"], "equipment": ["Oxide-red lift overalls"],
+    "icon": "gauntlet.svg", "source": "Sectors/Core/Chant/Affinity/Gangs/Deck Nine Compact.md"
+  },
+  {
+    "key": "compact-cargo-steward", "folder": "Deck Nine Compact", "name": "Deck Nine Compact — Cargo Steward", "level": 2,
+    "characteristics": [7, 8, 7],
+    "primary": {"label": "Dockside bargaining", "scope": "Allocate freight space, settle handling fees, or find a willing crew for an unofficial load."},
+    "secondary": {"label": "Lift work", "scope": "Direct a loading gang or spot a badly secured crate.", "dm": 1},
+    "cue": "A captain wants to jump the freight queue. The steward will hear the bid in Red Hall, where the displaced shift can answer for itself.",
+    "gear": ["traffic-slate", "seal-reader", "headset"], "equipment": ["Compact spanner badge"],
+    "icon": "art-write.svg", "source": "Sectors/Core/Chant/Affinity/Gangs/Deck Nine Compact.md"
+  },
+  {
+    "key": "compact-air-crew-foreman", "folder": "Deck Nine Compact", "name": "Deck Nine Compact — Air Crew Foreman", "level": 3,
+    "characteristics": [7, 6, 9],
+    "primary": {"label": "Station life support", "scope": "Find a failing air circuit, organise a repair, and keep a residential deck supplied."},
+    "secondary": {"label": "Shift representation", "scope": "Hear a safety complaint, negotiate cover, or assemble a relief shift in Red Hall.", "dm": 2},
+    "cue": "The foreman needs a scrubber hauled to the Breathing Room and offers to clear a freight slot in exchange. A resident will guide the delivery.",
+    "gear": ["tool-roll", "diagnostic-meter", "suit-radio"], "equipment": ["Patched vacc suit", "Industrial lifting frame"],
+    "icon": "engineering.svg", "source": "Sectors/Core/Chant/Affinity/Gangs/Deck Nine Compact.md"
+  },
+  {
+    "key": "relay-concourse-spotter", "folder": "Quiet Relay", "name": "Quiet Relay — Concourse Spotter", "level": 1,
+    "characteristics": [6, 8, 7],
+    "primary": {"label": "Concourse observation", "scope": "Recognise a contact, read a crowd, or remember who passed a public kiosk."},
+    "cue": "A regular at Echo Rack 9 missed their usual stop. The spotter offers a small fee for someone to check the infirmaries.",
+    "gear": ["hand-comm"], "equipment": ["Plain service uniform", "Augmented optics"],
+    "icon": "cybernetic-eye.svg", "source": "Sectors/Core/Chant/Affinity/Gangs/Quiet Relay.md"
+  },
+  {
+    "key": "relay-identity-broker", "folder": "Quiet Relay", "name": "Quiet Relay — Identity Broker", "level": 2,
+    "characteristics": [6, 7, 8],
+    "primary": {"label": "Identity brokerage", "scope": "Appraise a station credential, judge a claimant's story, and price an introduction."},
+    "secondary": {"label": "Client interviews", "scope": "Read the room or put an anxious visitor at ease during a private meeting.", "dm": 1},
+    "cue": "Two clients have brought the broker the same name, and both claim it belongs to them. The broker wants a witness who knew either one before Affinity.",
+    "gear": ["market-slate", "seal-reader"], "equipment": ["Neural link", "Corporate visitor pass"],
+    "icon": "id-card.svg", "source": "Sectors/Core/Chant/Affinity/Gangs/Quiet Relay.md"
+  },
+  {
+    "key": "relay-contact-coordinator", "folder": "Quiet Relay", "name": "Quiet Relay — Contact Coordinator", "level": 3,
+    "characteristics": [6, 7, 6],
+    "primary": {"label": "Source handling", "scope": "Weigh conflicting reports, assess an informant, or negotiate the terms of a discreet introduction."},
+    "secondary": {"label": "Station signals", "scope": "Interpret a relay fault, recognise a familiar feed, or judge the quality of a recording.", "dm": 2},
+    "cue": "The coordinator offers to arrange a call with a missing dockhand. First the caller must give a reason the dockhand would want to pick up.",
+    "gear": ["headset", "scanner"], "equipment": ["Technician's coveralls", "Neural link"],
+    "icon": "electronics-sensors.svg", "source": "Sectors/Core/Chant/Affinity/Gangs/Quiet Relay.md"
+  },
+  {
+    "key": "chorus-stage-hand", "folder": "The Chorus", "name": "Chorus — Stage Hand", "level": 1,
+    "characteristics": [7, 8, 7],
+    "primary": {"label": "Live show support", "scope": "Work a sound check, catch a performer's cue, or move a set through Resonance Alley on time."},
+    "cue": "The opening act is locked out of rehearsal. The stage hand has a spare channel and needs someone the venue manager will recognise.",
+    "gear": ["headset", "tool-roll"], "equipment": ["Shared-timing link", "Chrome stage pass"],
+    "icon": "comms.svg", "source": "Sectors/Core/Chant/Affinity/Gangs/The Chorus.md"
+  },
+  {
+    "key": "chorus-floor-marshal", "folder": "The Chorus", "name": "Chorus — Floor Marshal", "level": 2,
+    "characteristics": [8, 8, 7],
+    "primary": {"label": "Club security", "scope": "Spot trouble in a crowd, coordinate door staff, and escort patrons out of a packed venue."},
+    "secondary": {"label": "Show timing", "scope": "Follow live cues and keep a performance on schedule.", "dm": 1},
+    "cue": "Two rivals arrive midway through a scheduled show in Resonance Alley. The marshal asks the crew to walk one outside before either breaks the peace.",
+    "gear": ["comm", "baton"], "equipment": ["Shared-timing link", "Ultraviolet cuff lights"],
+    "icon": "cudgel.svg", "source": "Sectors/Core/Chant/Affinity/Gangs/The Chorus.md"
+  },
+  {
+    "key": "chorus-memory-appraiser", "folder": "The Chorus", "name": "Chorus — Memory Appraiser", "level": 3,
+    "characteristics": [5, 8, 7],
+    "primary": {"label": "Sensory production", "scope": "Evaluate a recording, recognise edits, and prepare a sensory session for buyers."},
+    "secondary": {"label": "Nightlife brokerage", "scope": "Find a private buyer or read the mood of an auction at the Green Room.", "dm": 2},
+    "cue": "A buyer recognises a voice in a memory on offer. The appraiser pauses the preview and asks the crew to bring the original performer across from Cathedral 88.",
+    "gear": ["headset", "diagnostic-meter"], "equipment": ["Sealed preview mask", "Isolated playback crystal"],
+    "icon": "ultrasound.svg", "source": "Sectors/Core/Chant/Affinity/Gangs/The Chorus.md"
+  },
+  {
+    "key": "outboarder-berth-runner", "folder": "The Outboarders", "name": "Outboarder — Berth Runner", "level": 1,
+    "characteristics": [6, 8, 7],
+    "primary": {"label": "Dockside errands", "scope": "Recognise scrap buyers, carry tagged parts, or find the right crew at the cargo spine."},
+    "cue": "At the Airlock Bar a suit patch has fallen from the memorial. The runner is waiting for a crewmate who knew its owner to pin it back.",
+    "gear": ["courier-bag", "seal-reader"], "equipment": ["Pressure-white dock jacket"],
+    "icon": "suitcase.svg", "source": "Sectors/Core/Chant/Affinity/Gangs/The Outboarders.md"
+  },
+  {
+    "key": "outboarder-hull-hand", "folder": "The Outboarders", "name": "Outboarder — Hull Hand", "level": 2,
+    "characteristics": [7, 9, 8],
+    "primary": {"label": "EVA salvage", "scope": "Work in a tether team, identify salvageable fittings, and bring loose components back to the lock."},
+    "secondary": {"label": "Chop dock appraisal", "scope": "Identify a ship component or find a buyer for it at Blackbox Market.", "dm": 1},
+    "cue": "A launch due for stripping at Dead Berth 12 still has a family locker aboard. The hull hand wants someone landside to find the owners.",
+    "gear": ["tether", "suit-radio", "tool-roll"], "equipment": ["Patched vacc suit", "Mag boots", "Cutting torch"],
+    "icon": "vacc-suit.svg", "source": "Sectors/Core/Chant/Affinity/Gangs/The Outboarders.md"
+  },
+  {
+    "key": "outboarder-walk-chief", "folder": "The Outboarders", "name": "Outboarder — Walk Chief", "level": 3,
+    "characteristics": [8, 8, 9],
+    "primary": {"label": "Exterior crew operations", "scope": "Plan a hull walk, direct a salvage crew, or bring a stranded suit back to an airlock."},
+    "secondary": {"label": "Suit maintenance", "scope": "Inspect a seal, assess damage to a suit, or organise a pressure test.", "dm": 2},
+    "cue": "A first-time walker calls off a job when a suit light comes on. The chief backs the call and needs a pilot to explain the delay to the berthmaster.",
+    "gear": ["tether", "suit-radio", "rescue-harness", "snub-pistol"], "equipment": ["Crew-chief vacc suit", "Mag boots"],
+    "icon": "advanced-vacc-suit.svg", "source": "Sectors/Core/Chant/Affinity/Gangs/The Outboarders.md"
+  },
+  {
+    "key": "ward-clinic-apprentice", "folder": "Ward Seven", "name": "Ward Seven — Clinic Apprentice", "level": 1,
+    "characteristics": [6, 7, 7],
+    "primary": {"label": "Clinic intake", "scope": "Give basic trauma care, recognise an urgent arrival, and relay the triage team's requests."},
+    "cue": "A patient at Mercy Blue has nobody to mind the battered case they brought in. The apprentice asks a familiar face to sit with it.",
+    "gear": ["field-medical-bag", "patient-slate"], "equipment": ["Broken-halo clinic patch"],
+    "icon": "medical-pack.svg", "source": "Sectors/Core/Chant/Affinity/Gangs/Ward Seven.md"
+  },
+  {
+    "key": "ward-field-medic", "folder": "Ward Seven", "name": "Ward Seven — Field Medic", "level": 2,
+    "characteristics": [7, 8, 8],
+    "primary": {"label": "Emergency care", "scope": "Assess casualties, provide trauma care, and move a patient through cramped service passages."},
+    "secondary": {"label": "Clinic Row contacts", "scope": "Locate a quiet bed, a carrier, or someone willing to honour a medical favour.", "dm": 1},
+    "cue": "A patient wants to pay with a favour. The medic asks the crew to witness the terms while the patient is still awake and able to object.",
+    "gear": ["field-medical-bag", "hand-comm"], "equipment": ["Diagnostic optics", "Blue-and-white medical patch"],
+    "icon": "medkit.svg", "source": "Sectors/Core/Chant/Affinity/Gangs/Ward Seven.md"
+  },
+  {
+    "key": "ward-recovery-escort", "folder": "Ward Seven", "name": "Ward Seven — Recovery Escort", "level": 3,
+    "characteristics": [8, 7, 9],
+    "primary": {"label": "Medical escort", "scope": "Protect a patient or courier, negotiate a handover, and keep a medical team together in a crowd."},
+    "secondary": {"label": "Field trauma care", "scope": "Assess casualties, assist a medic, or keep a patient stable in transit.", "dm": 2},
+    "cue": "A debtor offers to meet on Halo Steps. The escort leaves their sidearm at Mercy Blue and asks a traveller to witness the bargain on neutral ground.",
+    "gear": ["field-medical-bag", "sidearm", "light-vest"], "equipment": ["Broken-halo shoulder patch", "Paper receipt book"],
+    "icon": "medical-drip.svg", "source": "Sectors/Core/Chant/Affinity/Gangs/Ward Seven.md"
+  }
+]

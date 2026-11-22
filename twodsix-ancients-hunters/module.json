@@ -1,0 +1,40 @@
+{
+  "id": "twodsix-ancients-hunters",
+  "title": "Ancients Hunters Encounter NPCs",
+  "description": "Referee compendium of Affinity gang members and encounters from the Ancients Hunters campaign.",
+  "version": "1.0.0",
+  "manifest": "https://github.com/GuinivereJane/twodsix-ancients-hunters/releases/latest/download/module.json",
+  "download": "https://github.com/GuinivereJane/twodsix-ancients-hunters/releases/download/v1.0.0/Ancients-Hunters-Encounter-NPCs-1.0.0.zip",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.370",
+    "maximum": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "twodsix",
+        "type": "system",
+        "compatibility": {"minimum": "7.5.2", "verified": "7.5.2"}
+      }
+    ],
+    "requires": [
+      {
+        "id": "twodsix-trivial-characters",
+        "type": "module",
+        "manifest": "https://github.com/GuinivereJane/twodsix-trivial-characters/releases/latest/download/module.json",
+        "compatibility": {"minimum": "1.0.0"}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "ancients-hunters-encounters",
+      "label": "Ancients Hunters Encounters",
+      "path": "packs/ancients-hunters-encounters",
+      "type": "Actor",
+      "system": "twodsix",
+      "ownership": {"PLAYER": "NONE", "ASSISTANT": "OBSERVER"}
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "work-suit": {
+    "name": "Work suit",
+    "type": "equipment",
+    "icon": "vacc-suit.svg"
+  },
+  "tether": {
+    "name": "Tether",
+    "type": "equipment",
+    "icon": "rope-70m.svg"
+  },
+  "handlamp": {
+    "name": "Handlamp",
+    "type": "equipment",
+    "icon": "led-flashlight.svg"
+  },
+  "route-tablet": {
+    "name": "Route tablet",
+    "type": "equipment",
+    "icon": "hand-computer.svg"
+  },
+  "tool-roll": {
+    "name": "Tool roll",
+    "type": "equipment",
+    "icon": "tech-toolkit.svg"
+  },
+  "diagnostic-meter": {
+    "name": "Diagnostic meter",
+    "type": "equipment",
+    "icon": "probe.svg"
+  },
+  "gloves": {
+    "name": "Gloves",
+    "type": "equipment",
+    "icon": "gauntlet.svg"
+  },
+  "scanner": {
+    "name": "Scanner",
+    "type": "equipment",
+    "icon": "electronics-sensors.svg"
+  },
+  "cargo-straps": {
+    "name": "Cargo straps",
+    "type": "equipment",
+    "icon": "rope-70m.svg"
+  },
+  "headset": {
+    "name": "Headset",
+    "type": "equipment",
+    "icon": "comms.svg"
+  },
+  "traffic-slate": {
+    "name": "Traffic slate",
+    "type": "equipment",
+    "icon": "hand-computer.svg"
+  },
+  "seal-reader": {
+    "name": "Seal reader",
+    "type": "equipment",
+    "icon": "security-card.svg"
+  },
+  "inspection-tags": {
+    "name": "Inspection tags",
+    "type": "equipment",
+    "icon": "id-card.svg"
+  },
+  "service-rifle": {
+    "name": "Service rifle",
+    "type": "weapon",
+    "icon": "rifle.svg",
+    "system": {
+      "damage": "3d6",
+      "damageType": "ballistic",
+      "equipped": "equipped"
+    }
+  },
+  "service-vest": {
+    "name": "Service vest",
+    "type": "armor",
+    "icon": "Combat-armor.svg",
+    "system": {
+      "armor": 5,
+      "equipped": "equipped"
+    }
+  },
+  "comm": {
+    "name": "Comm",
+    "type": "equipment",
+    "icon": "short-range-communicator.svg"
+  },
+  "sidearm": {
+    "name": "Sidearm",
+    "type": "weapon",
+    "icon": "auto-pistol.svg",
+    "system": {
+      "damage": "3d6-3",
+      "damageType": "ballistic",
+      "equipped": "equipped"
+    }
+  },
+  "suit-radio": {
+    "name": "Suit radio",
+    "type": "equipment",
+    "icon": "walkie-talkie.svg"
+  },
+  "field-medical-bag": {
+    "name": "Field medical bag",
+    "type": "equipment",
+    "icon": "medical-pack.svg"
+  },
+  "baton": {
+    "name": "Baton",
+    "type": "weapon",
+    "icon": "cudgel.svg",
+    "system": {
+      "damage": "2d6",
+      "damageType": "bludgeoning",
+      "equipped": "equipped"
+    }
+  },
+  "light-vest": {
+    "name": "Light vest",
+    "type": "armor",
+    "icon": "cloth.svg",
+    "system": {
+      "armor": 3,
+      "equipped": "equipped"
+    }
+  },
+  "rescue-harness": {
+    "name": "Rescue harness",
+    "type": "equipment",
+    "icon": "rope-70m.svg"
+  },
+  "patient-slate": {
+    "name": "Patient slate",
+    "type": "equipment",
+    "icon": "hand-computer.svg"
+  },
+  "hand-comm": {
+    "name": "Hand comm",
+    "type": "equipment",
+    "icon": "communicator.svg"
+  },
+  "courier-bag": {
+    "name": "Courier bag",
+    "type": "equipment",
+    "icon": "suitcase.svg"
+  },
+  "stock-ledger": {
+    "name": "Stock ledger",
+    "type": "equipment",
+    "icon": "art-write.svg"
+  },
+  "market-slate": {
+    "name": "Market slate",
+    "type": "equipment",
+    "icon": "hand-computer.svg"
+  },
+  "freight-listings": {
+    "name": "Freight listings",
+    "type": "equipment",
+    "icon": "admin.svg"
+  },
+  "inspection-camera": {
+    "name": "Inspection camera",
+    "type": "equipment",
+    "icon": "electronics.svg"
+  },
+  "claim-forms": {
+    "name": "Claim forms",
+    "type": "equipment",
+    "icon": "admin.svg"
+  }
+}

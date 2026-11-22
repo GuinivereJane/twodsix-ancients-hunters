@@ -1,0 +1,26 @@
+{
+  "retractable-claws": {
+    "name": "Retractable claws",
+    "type": "weapon",
+    "icon": "wolverine-claws.svg",
+    "system": {"damage": "2d6", "damageType": "slashing", "equipped": "equipped"}
+  },
+  "subdermal-armour": {
+    "name": "Subdermal armour",
+    "type": "armor",
+    "icon": "subdermal-armor.svg",
+    "system": {"armor": 3, "equipped": "equipped"}
+  },
+  "snub-pistol": {
+    "name": "Snub pistol",
+    "type": "weapon",
+    "icon": "body-pistol.svg",
+    "system": {"damage": "3d6-3", "damageType": "ballistic", "equipped": "equipped"}
+  },
+  "ridge-cat-claws": {
+    "name": "Claws and bite",
+    "type": "weapon",
+    "icon": "crossed-claws.svg",
+    "system": {"damage": "2d6+2", "damageType": "slashing", "equipped": "equipped"}
+  }
+}

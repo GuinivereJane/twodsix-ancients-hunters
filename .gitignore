@@ -1,0 +1,4 @@
+node_modules/
+.DS_Store
+twodsix-ancients-hunters/packs/.build-*/
+twodsix-ancients-hunters/packs/.build-lock/

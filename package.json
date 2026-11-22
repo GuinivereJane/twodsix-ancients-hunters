@@ -1,0 +1,16 @@
+{
+  "name": "twodsix-ancients-hunters",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-pack.mjs",
+    "check:pack": "node scripts/build-pack.mjs --check"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "3.0.4"
+  }
+}
